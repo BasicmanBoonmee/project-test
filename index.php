@@ -10,7 +10,7 @@
         )
     );
 
-    echo "TEST";
+    echo "TEST<br />";
 
     $registerCard = $judopay->getModel('RegisterCard');
     $registerCard->setAttributeValues(
@@ -26,10 +26,12 @@
         )
     );
 
-echo "TEST2";
+    echo "Test2<br />";
 
-    /*$response = $registerCard->create();
-    if ($response['result'] === 'Success') {
+    $response = $registerCard->create();
+
+    echo "Test3<br />";
+    /*if ($response['result'] === 'Success') {
         echo 'Card registered successfully';
     } else {
         echo 'There were some problems while processing your request';
