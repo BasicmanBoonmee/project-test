@@ -12,7 +12,7 @@
 
     echo "TEST";
 
-    /*$registerCard = $judopay->getModel('RegisterCard');
+    $registerCard = $judopay->getModel('RegisterCard');
     $registerCard->setAttributeValues(
         array(
             'judoId' => '100826-205',
@@ -26,7 +26,9 @@
         )
     );
 
-    $response = $registerCard->create();
+echo "TEST2";
+
+    /*$response = $registerCard->create();
     if ($response['result'] === 'Success') {
         echo 'Card registered successfully';
     } else {
