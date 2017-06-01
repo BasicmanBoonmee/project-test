@@ -28,13 +28,28 @@
 
     echo "Test2<br />";
 
-    $response = $payment->create();
+   /* $response = $payment->create();
 
     echo "Test3<br />";
     if ($response['result'] === 'Success') {
         echo 'Card registered successfully';
     } else {
         echo 'There were some problems while processing your request';
+    }*/
+
+    try {
+        $response = $payment->create();
+        if ($response['result'] === 'Success') {
+            echo 'Payment succesful';
+        } else {
+            echo 'There were some problems while processing your payment';
+        }
+    } catch (\Judopay\Exception\ValidationError $e) {
+        echo $e->getSummary();
+    } catch (\Judopay\Exception\ApiException $e) {
+        echo $e->getSummary();
+    } catch (\Exception $e) {
+        echo $e->getMessage();
     }
 
     /*$auth = base64_encode("mark walker");
