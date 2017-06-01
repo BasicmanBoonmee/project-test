@@ -31,4 +31,18 @@
         }
     }*/
 
+    $ch = curl_init('https://gw1.judopay-sandbox.com');
+    curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+    curl_setopt($ch, CURLOPT_POSTFIELDS,
+        "apiToken=jwmXGbpb87xvDM4B&apiSecret=601dc0a93d2752f5041bdb9a53dc1bf0b4e8ef0f1b03f737416fcf3be1a20b7d&judoId=100826-205&useProduction=false");
+    curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+            'apiVersion: 5.2.0',
+            'userAgent: Judopay PHP v7.0 SDK v2.1.0',
+            'Content-Type: application/json')
+    );
+
+    $result = curl_exec($ch);
+
+    echo "Result : ".$result;
+
 ?>
