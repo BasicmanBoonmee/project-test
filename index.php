@@ -12,8 +12,8 @@
 
     echo "TEST<br />";
 
-    $registerCard = $judopay->getModel('RegisterCard');
-    $registerCard->setAttributeValues(
+    $payment = $judopay->getModel('Payment');
+    $payment->setAttributeValues(
         array(
             'judoId' => '100826-205',
             'yourConsumerReference' => '12345',
@@ -28,14 +28,14 @@
 
     echo "Test2<br />";
 
-    $response = $registerCard->create();
+    $response = $payment->create();
 
     echo "Test3<br />";
-    /*if ($response['result'] === 'Success') {
+    if ($response['result'] === 'Success') {
         echo 'Card registered successfully';
     } else {
         echo 'There were some problems while processing your request';
-    }*/
+    }
 
     /*$auth = base64_encode("mark walker");
 
