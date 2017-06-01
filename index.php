@@ -61,10 +61,9 @@
     curl_setopt($ch, CURLOPT_POST, count($fields));
     curl_setopt($ch, CURLOPT_POSTFIELDS, $fields_string);
     curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-            'API-Version: 5.2',
-            'Accept: application/json; charset=utf-8',
-            'Content-Type: application/json',
-            'Authorization: Basic {'.$auth.'}')
+            'Accept'       => 'application/json; charset=utf-8',
+            'Content-Type' => 'application/json',
+            'Authorization' => 'Basic {'.$auth.'}')
     );
 
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
