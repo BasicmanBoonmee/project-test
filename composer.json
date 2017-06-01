@@ -1,5 +1,6 @@
 {
     "require": {
-        "ixudra/curl": "^6.10"
+        "ixudra/curl": "^6.10",
+        "judopay/judopay-sdk": "~2.0"
     }
 }

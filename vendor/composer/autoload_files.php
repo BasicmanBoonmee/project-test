@@ -8,4 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     '5255c38a0faeba867671b61dfda6d864' => $vendorDir . '/paragonie/random_compat/lib/random.php',
     '72579e7bd17821bb1321b87411366eae' => $vendorDir . '/illuminate/support/helpers.php',
+    '8b0cee68ec5cbc5638450ae5e00a32ca' => $vendorDir . '/judopay/judopay-sdk/src/Judopay.php',
 );
