@@ -39,7 +39,7 @@
         echo $e->getMessage();
     }*/
 
-    $auth = base64_encode("mark:walker");
+    $auth = base64_encode("9fCa1W7LsrdasToh:crWqj6cUJIbio6odXB9ZlL5QYAXu7k9N");
 
     $url = 'https://gw1.judopay-sandbox.com/transactions/payments';
     $fields = array(
@@ -61,16 +61,16 @@
     curl_setopt($ch, CURLOPT_POST, count($fields));
     curl_setopt($ch, CURLOPT_POSTFIELDS, $fields_string);
     curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-            'API-Version: 5.2.0',
-            'Authorization: Basic {'.$auth.'}',
-            'Accept: application/json',
-            'Content-Type: application/json')
+            'API-Version' => '5.2.0',
+            'Accept'       => 'application/json; charset=utf-8',
+            'Content-Type' => 'application/json',
+            'Authorization' => 'Basic {'.$auth.'}')
     );
 
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
     $result = curl_exec($ch);
 
-    echo "Result4 : ".$result;
+    echo "Result5 : ".$result;
 
 ?>
