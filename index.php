@@ -29,6 +29,8 @@
         }
     }*/
 
+    $auth = base64_encode("mark walker");
+
     $url = 'https://gw1.judopay-sandbox.com/transactions/registercard';
     $fields = array(
         'yourConsumerReference' => '5678849',
@@ -50,7 +52,7 @@
     curl_setopt($ch, CURLOPT_POSTFIELDS, $fields_string);
     curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             'API-Version: 5.2.0',
-            'Authorization: Basic {authstring}',
+            'Authorization: Basic {'.$auth.'}',
             'Accept: application/json',
             'Content-Type: application/json')
     );
