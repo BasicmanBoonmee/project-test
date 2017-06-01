@@ -29,7 +29,7 @@
         }
     }*/
 
-    $url = 'https://gw1.judopay-sandbox.com/transactions/payments';
+    $url = 'https://gw1.judopay-sandbox.com/transactions/registercard';
     $fields = array(
         'yourConsumerReference' => '5678849',
         'yourPaymentReference' => '9908865755',
