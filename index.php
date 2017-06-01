@@ -10,7 +10,9 @@
         )
     );
 
-    $registerCard = $judopay->getModel('RegisterCard');
+    echo "TEST";
+
+    /*$registerCard = $judopay->getModel('RegisterCard');
     $registerCard->setAttributeValues(
         array(
             'judoId' => '100826-205',
@@ -29,7 +31,7 @@
         echo 'Card registered successfully';
     } else {
         echo 'There were some problems while processing your request';
-    }
+    }*/
 
     /*$auth = base64_encode("mark walker");
 
