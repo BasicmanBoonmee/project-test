@@ -1,7 +1,5 @@
 <?php
 	require_once __DIR__ . '/vendor/autoload.php';
-	
-	echo "TEST";
 
     /*$access_token = 'qHrTqVT/bSCXzWZxEoJKN3M/L3AFcc22bG/Nksp3GpJNJCqWJi8p8Z2XMmrgjoFEb97JF7R5kSAAprv7K4KGPyIRnsT/hJPdIvyBcOMHN6mw2fHr/45UCWB/HiR72oJst79wfFnoU9bg7nb+kSaGagdB04t89/1O/w1cDnyilFU=';
 
@@ -53,7 +51,8 @@
     curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             'API-Version: 5.2.0',
             'Authorization: Basic {authstring}',
-            'Accept: application/json')
+            'Accept: application/json',
+            'Content-Type: application/json')
     );
 
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
