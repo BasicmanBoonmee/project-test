@@ -10,8 +10,6 @@
         )
     );
 
-    echo "TEST<br />";
-
     $payment = $judopay->getModel('Payment');
     $payment->setAttributeValues(
         array(
@@ -21,12 +19,10 @@
             'amount' => 1.01,
             'currency' => 'GBP',
             'cardNumber' => '4976000000003436',
-            'expiryDate' => '12/15',
+            'expiryDate' => '15/22',
             'cv2' => 452
         )
     );
-
-    echo "Test2<br />";
 
    /* $response = $payment->create();
 
