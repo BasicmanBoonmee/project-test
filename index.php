@@ -1,7 +1,7 @@
 <?php
 	require_once __DIR__ . '/vendor/autoload.php';
 
-    $judopay = new \Judopay(
+    /*$judopay = new \Judopay(
         array(
             'apiToken' => 'jwmXGbpb87xvDM4B',
             'apiSecret' => '601dc0a93d2752f5041bdb9a53dc1bf0b4e8ef0f1b03f737416fcf3be1a20b7d',
@@ -24,15 +24,6 @@
         )
     );
 
-   /* $response = $payment->create();
-
-    echo "Test3<br />";
-    if ($response['result'] === 'Success') {
-        echo 'Card registered successfully';
-    } else {
-        echo 'There were some problems while processing your request';
-    }*/
-
     try {
         $response = $payment->create();
         if ($response['result'] === 'Success') {
@@ -46,16 +37,16 @@
         echo $e->getSummary();
     } catch (\Exception $e) {
         echo $e->getMessage();
-    }
+    }*/
 
-    /*$auth = base64_encode("mark walker");
+    $auth = base64_encode("mark:walker");
 
-    $url = 'https://gw1.judopay-sandbox.com/transactions/registercard';
+    $url = 'https://gw1.judopay-sandbox.com/transactions/payments';
     $fields = array(
-        'yourConsumerReference' => '5678849',
-        'yourPaymentReference' => '9908865755',
+        'yourConsumerReference' => '12345',
+        'yourPaymentReference' => '12345',
         'cardNumber' => '4976000000003436',
-        'expiryDate' => '12/20',
+        'expiryDate' => '12/22',
         'cv2' => '452',
         'amount' => 1.01,
         'currency' => 'GBP',
@@ -71,7 +62,7 @@
     curl_setopt($ch, CURLOPT_POSTFIELDS, $fields_string);
     curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             'API-Version: 5.2.0',
-            'Token: jwmXGbpb87xvDM4B',
+            'Authorization: Basic {'.$auth.'}',
             'Accept: application/json',
             'Content-Type: application/json')
     );
@@ -80,6 +71,6 @@
 
     $result = curl_exec($ch);
 
-    echo "Result3 : ".$result;*/
+    echo "Result4 : ".$result;
 
 ?>
