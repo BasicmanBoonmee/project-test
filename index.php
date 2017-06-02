@@ -68,12 +68,12 @@
     curl_setopt($ch, CURLOPT_USERPWD, 'jwmXGbpb87xvDM4B:601dc0a93d2752f5041bdb9a53dc1bf0b4e8ef0f1b03f737416fcf3be1a20b7d');
     curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             'API-Version: 5.2',
-            'Content-Type: application/json',
+            'Accept: application/json',
             'Authorization: Basic '.$auth)
     );
 
     $result = curl_exec($ch);
 
-    echo "Result14 : ".$result;
+    echo "Result15 : ".$result;
 
 ?>
