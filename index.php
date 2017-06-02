@@ -39,7 +39,8 @@
         echo $e->getMessage();
     }*/
 
-    $auth = base64_encode("9fCa1W7LsrdasToh:crWqj6cUJIbio6odXB9ZlL5QYAXu7k9N");
+
+    $auth = base64_encode("jwmXGbpb87xvDM4B:601dc0a93d2752f5041bdb9a53dc1bf0b4e8ef0f1b03f737416fcf3be1a20b7d");
 
     $url = 'https://gw1.judopay-sandbox.com/transactions/payments';
     $fields = array(
