@@ -57,11 +57,11 @@
     foreach($fields as $key=>$value) { $fields_string .= $key.'='.$value.'&'; }
     rtrim($fields_string, '&');
 	
-	echo $fields_string."<br />";
+	//echo $fields_string."<br />";
 
     $ch = curl_init($url);
     curl_setopt($ch, CURLOPT_POST, count($fields));
-    curl_setopt($ch, CURLOPT_POSTFIELDS, $fields_string);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, "yourConsumerReference=12345&yourPaymentReference=12345&cardNumber=4976000000003436&expiryDate=12/22&cv2=452&amount=1.01&currency=GBP&judoId=100826-205");
     curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             'API-Version: 5.2.0',
             'Accept: application/json; charset=utf-8',
@@ -73,6 +73,6 @@
 
     $result = curl_exec($ch);
 
-    echo "Result5 : ".$result;
+    echo "Result6 : ".$result;
 
 ?>
