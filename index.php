@@ -58,7 +58,7 @@
     foreach($fields as $key=>$value) { $fields_string .= $key.'='.$value.'&'; }
     rtrim($fields_string, '&');
 
-    echo $fields_string."<br />";
+    //echo $fields_string."<br />";
 
     $ch = curl_init($url);
     curl_setopt($ch, CURLOPT_POST, 1);
@@ -75,6 +75,11 @@
 
     $result = curl_exec($ch);
 
-    echo "Result16 : ".$result;
+    if ($result === false)
+    {
+        print_r('Curl error: ' . curl_error($result));
+    }else{
+        echo "Result18 : ".$result;
+    }
 
 ?>
