@@ -68,11 +68,11 @@
             'API-Version: 5.2.0',
             'Accept: application/json; charset=utf-8',
             'Content-Type: application/json',
-            'Authorization: Basic {'.$auth.'}')
+            'Authorization: Bearer '.$auth)
     );
 
     $result = curl_exec($ch);
 
-    echo "Result11 : ".$result;
+    echo "Result13 : ".$result;
 
 ?>
