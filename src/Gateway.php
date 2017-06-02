@@ -4,9 +4,11 @@ namespace Omnipay\JudoPay;
 
 use Omnipay\Common\AbstractGateway;
 use Judopay;
+use Omnipay\JudoPay\Message\PreAuthorizationRequest;
+use Omnipay\JudoPay\Message\PreAuthorizationResponse;
 
 /**
- * WorldPay Gateway
+ * JudoPay Gateway
  *
  * @link http://www.worldpay.com/support/kb/bg/htmlredirect/rhtml.html
  * @method \Omnipay\Common\Message\RequestInterface completeAuthorize(array $options = array())
@@ -85,6 +87,6 @@ class Gateway extends AbstractGateway
 
     public function completePurchase(array $parameters = array())
     {
-        return $this->createRequest('\Omnipay\WorldPay\Message\CompletePurchaseRequest', $parameters);
+        return $this->createRequest('\Omnipay\JudoPay\Message\CompletePurchaseRequest', $parameters);
     }
 }

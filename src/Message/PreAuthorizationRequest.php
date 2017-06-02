@@ -54,8 +54,6 @@ class PreAuthorizationRequest extends AbstractRequest
     {
         $this->validate('amount');
 
-        // Either the nodifyUrl or the returnUrl can be provided.
-        // The returnUrl is deprecated, as strictly this is a notifyUrl.
         if (!$this->getNotifyUrl()) {
             $this->validate('returnUrl');
         }
