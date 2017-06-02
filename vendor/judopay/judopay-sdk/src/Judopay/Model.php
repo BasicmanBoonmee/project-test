@@ -96,10 +96,11 @@ class Model
         $this->checkRequiredAttributes($this->attributeValues);
         echo "resourcePath : ".$this->resourcePath."<br />";
         echo json_encode($this->attributeValues)."<br />";
-        echo $this->request->post(
+        echo $response = $this->request->post(
             $this->resourcePath,
             json_encode($this->attributeValues)
-        )->json();
+        )->json()."<br />";
+        echo $response['result'];
         die();
         return $this->request->post(
             $this->resourcePath,
