@@ -56,6 +56,8 @@
     //url-ify the data for the POST
     foreach($fields as $key=>$value) { $fields_string .= $key.'='.$value.'&'; }
     rtrim($fields_string, '&');
+	
+	echo $fields_string."<br />";
 
     $ch = curl_init($url);
     curl_setopt($ch, CURLOPT_POST, count($fields));
