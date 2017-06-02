@@ -99,6 +99,7 @@ class GatewayFactory
      */
     public function create($class, ClientInterface $httpClient = null, HttpRequest $httpRequest = null)
     {
+        echo "Class : ".$class."<br />";
         $class = Helper::getGatewayClassName($class);
 
         if (!class_exists($class)) {
