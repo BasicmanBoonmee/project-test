@@ -91,6 +91,7 @@ class Model
      **/
     public function create()
     {
+        die("TEST Create");
         $this->checkApiMethodIsSupported(__FUNCTION__);
         $this->checkJudoId();
         $this->checkRequiredAttributes($this->attributeValues);
