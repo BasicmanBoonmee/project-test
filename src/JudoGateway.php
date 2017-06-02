@@ -19,23 +19,10 @@ use Judopay;
  * @method \Omnipay\Common\Message\RequestInterface updateCard(array $options = array())
  * @method \Omnipay\Common\Message\RequestInterface deleteCard(array $options = array())
  */
-class Gateway extends AbstractGateway
+class JudoGateway extends AbstractGateway
 {
 
     public $judopay;
-
-    public function __construct()
-    {
-        die("TEST");
-        $this->judopay = new Judopay(
-            array(
-                'apiToken' => 'jwmXGbpb87xvDM4B',
-                'apiSecret' => '601dc0a93d2752f5041bdb9a53dc1bf0b4e8ef0f1b03f737416fcf3be1a20b7d',
-                'judoId' => '100826-205',
-                'useProduction' => false
-            )
-        );
-    }
 
     public function getName()
     {
@@ -94,6 +81,16 @@ class Gateway extends AbstractGateway
 
     public function preAuthorization(array $parameters = array())
     {
+
+        $this->judopay = new Judopay(
+            array(
+                'apiToken' => 'jwmXGbpb87xvDM4B',
+                'apiSecret' => '601dc0a93d2752f5041bdb9a53dc1bf0b4e8ef0f1b03f737416fcf3be1a20b7d',
+                'judoId' => '100826-205',
+                'useProduction' => false
+            )
+        );
+
         $payment = $this->judopay->getModel('Payment');
         $payment->setAttributeValues(
             array(

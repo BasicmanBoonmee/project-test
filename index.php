@@ -3,13 +3,17 @@
 
     echo "TEST 1<br />";
 
-    $omnipay = new \Omnipay\JudoPay\Gateway();
+    $omnipay = \Omnipay\Omnipay::create('JudoPay');
+
+    echo "Name : ".$omnipay->getName()."<br />";
+
+    //$omnipay = new \Omnipay\JudoPay\Gateway();
 
     echo "TEST 2<br />";
 
     $parameter = array();
 
-    $omnipay->preAuthorization($parameter);
+    //$omnipay->preAuthorization($parameter);
 
     echo "TEST 3<br />";
 
