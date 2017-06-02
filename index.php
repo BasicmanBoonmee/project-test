@@ -60,6 +60,8 @@
 
     //echo $fields_string."<br />";
 
+    echo 'Authorization: Basic '.$auth."<br />";
+
     $ch = curl_init($url);
     curl_setopt($ch, CURLOPT_POST, 1);
     curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($fields));
