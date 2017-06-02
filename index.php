@@ -1,7 +1,15 @@
 <?php
 	require_once __DIR__ . '/vendor/autoload.php';
 
-    $judopay = new \Judopay(
+    $omnipay = new \Omnipay\JudoPay\Gateway();
+
+    $parameter = array();
+
+    $omnipay->preAuthorization();
+
+
+
+    /*$judopay = new \Judopay(
         array(
             'apiToken' => 'jwmXGbpb87xvDM4B',
             'apiSecret' => '601dc0a93d2752f5041bdb9a53dc1bf0b4e8ef0f1b03f737416fcf3be1a20b7d',
@@ -39,7 +47,16 @@
         echo $e->getMessage();
     }
 
-    /*$client = new \Guzzle\Http\Client();
+    $settings = array();
+
+    $settings['apiVersion'] = '5.2.0';
+    $settings['logger'] = new \Psr\Log\NullLogger();
+    $settings['userAgent'] = 'Judopay PHP v'.phpversion().' SDK v2.1.0';
+    $settings['httpLogFormat'] = "\"{method} {resource} {protocol}/{version}\" ".
+        "{code} Content-Length: {res_header_Content-Length}\n| Response: {response}";
+
+    $request = new \Guzzle\Http\Message\Request($settings);
+    $client = new \Guzzle\Http\Client();
 
     $client->setDefaultOption(
         'headers',
@@ -65,7 +82,15 @@
             'currency' => 'GBP',
             'judoId' => '100826-205'
         ]
-        );*/
+    );
+
+    $request->setClient($client);
+
+    $request->setHeader('Authorization', 'Basic ' . base64_encode('9fCa1W7LsrdasToh:crWqj6cUJIbio6odXB9ZlL5QYAXu7k9N'));
+
+    $request->setAuth('jwmXGbpb87xvDM4B','601dc0a93d2752f5041bdb9a53dc1bf0b4e8ef0f1b03f737416fcf3be1a20b7d');*/
+
+
 
     /*$auth = base64_encode("9fCa1W7LsrdasToh:crWqj6cUJIbio6odXB9ZlL5QYAXu7k9N");
 
