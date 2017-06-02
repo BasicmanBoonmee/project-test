@@ -43,7 +43,7 @@
 
 
     $request = \Guzzle\Http\Message\Request::class;
-    $request->request->post();
+    $request->post();
 
     echo "AFTER<br />";
 

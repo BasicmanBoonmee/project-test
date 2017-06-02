@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4f754708-210f-4896-9b71-210dca48b3ff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Client.php" afterPath="$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Client.php" />
     </list>
     <ignored path="project-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+            <state relative-caret-position="646">
+              <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -37,8 +36,8 @@
       <file leaf-file-name="Model.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/judopay/judopay-sdk/src/Judopay/Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+            <state relative-caret-position="306">
+              <caret line="102" column="27" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -47,7 +46,7 @@
       <file leaf-file-name="Judopay.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/judopay/judopay-sdk/src/Judopay.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
+            <state relative-caret-position="1054">
               <caret line="62" column="28" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="28" />
               <folding>
                 <element signature="e#7#33#0#PHP" expanded="true" />
@@ -69,7 +68,7 @@
       <file leaf-file-name="Request.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/judopay/judopay-sdk/src/Judopay/Request.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
+            <state relative-caret-position="484">
               <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
               <folding />
             </state>
@@ -360,12 +359,12 @@
       <option name="presentableId" value="Default" />
       <updated>1496307562409</updated>
       <workItem from="1496307563545" duration="7271000" />
-      <workItem from="1496370666513" duration="7367000" />
+      <workItem from="1496370666513" duration="7621000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14638000" />
+    <option name="totallyTimeSpent" value="14892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -502,9 +501,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/judopay/judopay-sdk/src/Judopay/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/judopay/judopay-sdk/src/Judopay/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="102" column="27" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/judopay/judopay-sdk/src/Judopay.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
+        <state relative-caret-position="1054">
           <caret line="62" column="28" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="28" />
           <folding>
             <element signature="e#7#33#0#PHP" expanded="true" />
@@ -520,26 +535,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/judopay/judopay-sdk/src/Judopay/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/judopay/judopay-sdk/src/Judopay/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        <state relative-caret-position="646">
+          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
           <folding />
         </state>
       </provider>
