@@ -1,11 +1,17 @@
 <?php
 	require_once __DIR__ . '/vendor/autoload.php';
 
+    echo "TEST 1<br />";
+
     $omnipay = new \Omnipay\JudoPay\Gateway();
+
+    echo "TEST 2<br />";
 
     $parameter = array();
 
     $omnipay->preAuthorization($parameter);
+
+    echo "TEST 3<br />";
 
 
 
