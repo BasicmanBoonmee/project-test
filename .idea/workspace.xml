@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef8da785-3594-4b5c-b925-68b5d8b6e4bb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/JudoGateway.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Message/PreAuthorizationRequest.php" afterPath="$PROJECT_DIR$/src/Message/PreAuthorizationRequest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Message/PreAuthorizationResponse.php" afterPath="$PROJECT_DIR$/src/Message/PreAuthorizationResponse.php" />
     </list>
     <ignored path="omnipay-judopay.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,8 +68,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="85">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -220,12 +217,12 @@
       <updated>1496310745849</updated>
       <workItem from="1496310746957" duration="2360000" />
       <workItem from="1496370639033" duration="25000" />
-      <workItem from="1496390472838" duration="2460000" />
+      <workItem from="1496390472838" duration="2556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4845000" />
+    <option name="totallyTimeSpent" value="4941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -378,8 +375,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding />
         </state>
       </provider>

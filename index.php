@@ -7,13 +7,13 @@
 
     $omnipay = Omnipay::create('JudoPay');
 
+    echo "TEST 2<br />";
+
     $parameter = array();
 
     echo "Name : ".$omnipay->authorize($parameter)."<br />";
 
     //$omnipay = new \Omnipay\JudoPay\Gateway();
-
-    echo "TEST 2<br />";
 
 
 
