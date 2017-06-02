@@ -91,7 +91,6 @@ class Model
      **/
     public function create()
     {
-        die("TEST Create");
         $this->checkApiMethodIsSupported(__FUNCTION__);
         $this->checkJudoId();
         $this->checkRequiredAttributes($this->attributeValues);
@@ -211,6 +210,7 @@ class Model
     protected function checkJudoId()
     {
         $judoId = $this->getAttributeValue(static::JUDO_ID);
+        die("Judo ID : ".$judoId);
         if (!empty($judoId)) {
             return;
         }
