@@ -11,7 +11,7 @@ class Gateway extends AbstractGateway
 {
     public function getName()
     {
-        return 'JudoPay';
+        return 'Vantiv123';
     }
 
     public function getDefaultParameters()
