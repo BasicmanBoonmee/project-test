@@ -11,6 +11,7 @@ return array(
     'Symfony\\Component\\EventDispatcher\\' => array($vendorDir . '/symfony/event-dispatcher'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Omnipay\\Vantiv\\' => array($vendorDir . '/lemonstand/omnipay-vantiv/src'),
+    'Omnipay\\Judopay\\' => array($vendorDir . '/omnipay-judopay/src'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
     'Judopay\\' => array($vendorDir . '/judopay/judopay-sdk/src/Judopay'),
 );
