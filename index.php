@@ -58,21 +58,22 @@
     foreach($fields as $key=>$value) { $fields_string .= $key.'='.$value.'&'; }
     rtrim($fields_string, '&');
 
+    echo $fields_string."<br />";
+
     $ch = curl_init($url);
-    curl_setopt($ch, CURLOPT_POST, count($fields));
+    curl_setopt($ch, CURLOPT_POST, 1);
     curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($fields));
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
     curl_setopt($ch, CURLOPT_USERPWD, 'jwmXGbpb87xvDM4B:601dc0a93d2752f5041bdb9a53dc1bf0b4e8ef0f1b03f737416fcf3be1a20b7d');
     curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-            'API-Version: 5.2.0',
-            'Accept: application/json; charset=utf-8',
+            'API-Version: 5.2',
             'Content-Type: application/json',
-            'Authorization: Bearer '.$auth)
+            'Authorization: Basic '.$auth)
     );
 
     $result = curl_exec($ch);
 
-    echo "Result13 : ".$result;
+    echo "Result14 : ".$result;
 
 ?>
