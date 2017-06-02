@@ -3,11 +3,13 @@
 
     use Omnipay\Omnipay;
 
-    echo "TEST 1<br />";
+    echo "TEST 12<br />";
+
+    $vantiv = Omnipay::create('Vantiv');
 
     $judopay = Omnipay::create('Judopay');
 
-    $Vantiv = Omnipay::create('Vantiv');
+
 
     echo "TEST 2<br />";
 
