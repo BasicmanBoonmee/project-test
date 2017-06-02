@@ -5,7 +5,7 @@
 
     $parameter = array();
 
-    $omnipay->preAuthorization();
+    $omnipay->preAuthorization($parameter);
 
 
 

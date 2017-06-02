@@ -2,201 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef8da785-3594-4b5c-b925-68b5d8b6e4bb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/project-test.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cacert.pem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/inflector/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/inflector/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/inflector/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/inflector/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/inflector/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/inflector/phpunit.xml.dist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/inflector/tests/Doctrine/Tests/Common/Inflector/InflectorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/inflector/tests/Doctrine/Tests/DoctrineTestCase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/inflector/tests/Doctrine/Tests/TestInit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/Access/Authorizable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/Access/Gate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/Authenticatable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/CanResetPassword.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/Factory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/Guard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/PasswordBroker.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/PasswordBrokerFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/StatefulGuard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/SupportsBasicAuth.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/UserProvider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Broadcasting/Broadcaster.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Broadcasting/Factory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Broadcasting/ShouldBroadcast.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Broadcasting/ShouldBroadcastNow.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Bus/Dispatcher.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Bus/QueueingDispatcher.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Cache/Factory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Cache/Repository.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Cache/Store.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Config/Repository.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Console/Application.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Console/Kernel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Container/BindingResolutionException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Container/Container.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Container/ContextualBindingBuilder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Cookie/Factory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Cookie/QueueingFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Database/ModelIdentifier.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Debug/ExceptionHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Encryption/DecryptException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Encryption/EncryptException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Encryption/Encrypter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Events/Dispatcher.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Filesystem/Cloud.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Filesystem/Factory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Filesystem/FileNotFoundException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Filesystem/Filesystem.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Foundation/Application.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Hashing/Hasher.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Http/Kernel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Logging/Log.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Mail/MailQueue.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Mail/Mailable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Mail/Mailer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Notifications/Dispatcher.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Notifications/Factory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Pagination/LengthAwarePaginator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Pagination/Paginator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Pipeline/Hub.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Pipeline/Pipeline.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/EntityNotFoundException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/EntityResolver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/Factory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/Job.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/Monitor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/Queue.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/QueueableCollection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/QueueableEntity.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/ShouldQueue.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Redis/Factory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Routing/BindingRegistrar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Routing/Registrar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Routing/ResponseFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Routing/UrlGenerator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Routing/UrlRoutable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Session/Session.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Support/Arrayable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Support/Htmlable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Support/Jsonable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Support/MessageBag.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Support/MessageProvider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Support/Renderable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Translation/Translator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Validation/Factory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Validation/ValidatesWhenResolved.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Validation/Validator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/View/Factory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/View/View.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/AggregateServiceProvider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Arr.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Collection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Composer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Debug/Dumper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Debug/HtmlDumper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/App.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Artisan.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Auth.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Broadcast.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Bus.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Cache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Cookie.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Crypt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/DB.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Event.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Facade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/File.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Gate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Hash.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Input.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Lang.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Log.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Mail.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Notification.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Password.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Queue.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Redirect.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Redis.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Request.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Response.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Route.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Schema.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Session.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Storage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/URL.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Validator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/View.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Fluent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/HigherOrderCollectionProxy.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/HtmlString.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Manager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/MessageBag.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/NamespacedItemResolver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Pluralizer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/ServiceProvider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Str.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Testing/Fakes/BusFake.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Testing/Fakes/EventFake.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Testing/Fakes/MailFake.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Testing/Fakes/NotificationFake.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Testing/Fakes/PendingMailFake.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Testing/Fakes/QueueFake.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Traits/CapsuleManagerTrait.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Traits/Macroable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/ViewErrorBag.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/helpers.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ixudra/curl/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ixudra/curl/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ixudra/curl/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ixudra/curl/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ixudra/curl/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ixudra/curl/composer.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ixudra/curl/phpunit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ixudra/curl/src/Builder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ixudra/curl/src/CurlService.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ixudra/curl/src/CurlServiceProvider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/ixudra/curl/src/Facades/Curl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/build-phar.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/dist/random_compat.phar.pubkey" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/dist/random_compat.phar.pubkey.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/byte_safe_strings.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/cast_to_int.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/error_polyfill.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_com_dotnet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_dev_urandom.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_libsodium.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_libsodium_legacy.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_mcrypt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_int.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/other/build_phar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/psalm-autoload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/psalm.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/judopay/judopay-sdk/src/Judopay/Model.php" afterPath="$PROJECT_DIR$/vendor/judopay/judopay-sdk/src/Judopay/Model.php" />
     </list>
     <ignored path="omnipay-judopay.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -240,8 +46,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -353,12 +159,12 @@
       <updated>1496310745849</updated>
       <workItem from="1496310746957" duration="2360000" />
       <workItem from="1496370639033" duration="25000" />
-      <workItem from="1496390472838" duration="136000" />
+      <workItem from="1496390472838" duration="212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2521000" />
+    <option name="totallyTimeSpent" value="2597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -473,8 +279,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
           <folding />
         </state>
       </provider>
