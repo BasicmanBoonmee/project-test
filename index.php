@@ -1,7 +1,7 @@
 <?php
 	require_once __DIR__ . '/vendor/autoload.php';
 
-    /*$judopay = new \Judopay(
+    $judopay = new \Judopay(
         array(
             'apiToken' => 'jwmXGbpb87xvDM4B',
             'apiSecret' => '601dc0a93d2752f5041bdb9a53dc1bf0b4e8ef0f1b03f737416fcf3be1a20b7d',
@@ -37,10 +37,10 @@
         echo $e->getSummary();
     } catch (\Exception $e) {
         echo $e->getMessage();
-    }*/
+    }
 
 
-    $auth = base64_encode("9fCa1W7LsrdasToh:crWqj6cUJIbio6odXB9ZlL5QYAXu7k9N");
+    /*$auth = base64_encode("9fCa1W7LsrdasToh:crWqj6cUJIbio6odXB9ZlL5QYAXu7k9N");
 
     $url = 'https://gw1.judopay-sandbox.com/transactions/payments';
     $fields = array(
@@ -60,8 +60,6 @@
 
     //echo $fields_string."<br />";
 
-    echo 'Authorization: Basic '.$auth."<br />";
-
     $ch = curl_init($url);
     curl_setopt($ch, CURLOPT_POST, 1);
     curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($fields));
@@ -70,7 +68,7 @@
     curl_setopt($ch, CURLOPT_CAINFO, 'cacert.pem');
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
     curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 2);
-    curl_setopt($ch, CURLOPT_USERPWD, base64_encode('jwmXGbpb87xvDM4B:601dc0a93d2752f5041bdb9a53dc1bf0b4e8ef0f1b03f737416fcf3be1a20b7d'));
+    curl_setopt($ch, CURLOPT_USERPWD, 'jwmXGbpb87xvDM4B:601dc0a93d2752f5041bdb9a53dc1bf0b4e8ef0f1b03f737416fcf3be1a20b7d');
     curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             'API-Version: 5.2',
             'Content-Type: application/json',
@@ -85,6 +83,6 @@
         echo "Curl error: ".curl_error($result);
     }else{
         echo "Result20 : ".$result;
-    }
+    }*/
 
 ?>
