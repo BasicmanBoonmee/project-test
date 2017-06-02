@@ -9,8 +9,6 @@
 
     $judopay = Omnipay::create('Judopay');
 
-
-
     echo "TEST 2<br />";
 
     $parameter = array();

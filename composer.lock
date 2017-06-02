@@ -4,9 +4,60 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e02cbcbfa0be683909c47339a9bfccea",
-    "content-hash": "914779f47fac1c19e0cc09a85e7cd968",
+    "hash": "600a7b112b9ab60b8729d092aeba7a26",
+    "content-hash": "3e07a7574f24e31fea737afacd0f1cf8",
     "packages": [
+        {
+            "name": "Omnipay/Judopay",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Transportersio/omnipay-judopay.git",
+                "reference": "e3208b127b7a28f5b445956ca2abfe23b3c44e61"
+            },
+            "require": {
+                "omnipay/common": "~2.0"
+            },
+            "require-dev": {
+                "judopay/judopay-sdk": "~2.0",
+                "omnipay/tests": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Omnipay\\Judopay\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "",
+                    "email": "ms@transporters.io"
+                },
+                {
+                    "name": "Omnipay Contributors",
+                    "homepage": "https://github.com/transportersio/omnipay-judopay/contributors"
+                }
+            ],
+            "description": "Judopay driver for the Omnipay payment processing library",
+            "homepage": "https://github.com/transportersio/omnipay-judopay",
+            "keywords": [
+                "gateway",
+                "judopay",
+                "merchant",
+                "omnipay",
+                "pay",
+                "payment"
+            ],
+            "time": "2017-06-02 07:55:01"
+        },
         {
             "name": "guzzle/guzzle",
             "version": "v3.9.3",
@@ -659,7 +710,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "omnipay/judopay": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

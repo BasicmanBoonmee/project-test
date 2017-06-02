@@ -1,6 +1,13 @@
 {
+	"repositories":[
+		{
+		  "url": "https://github.com/Transportersio/omnipay-judopay.git",
+		  "type": "git"
+		}
+	],
     "require": {
-        "lemonstand/omnipay-vantiv": "~1.0",
-        "judopay/judopay-sdk": "~2.0"
+        "judopay/judopay-sdk": "~2.0",
+		"omnipay/Judopay": "dev-master",
+		"lemonstand/omnipay-vantiv": "~1.0"
     }
 }

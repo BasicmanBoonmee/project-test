@@ -376,59 +376,56 @@
         ]
     },
     {
-        "name": "lemonstand/omnipay-vantiv",
-        "version": "v1.0.0",
-        "version_normalized": "1.0.0.0",
+        "name": "Omnipay/Judopay",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/lemonstand/omnipay-vantiv.git",
-            "reference": "8afe1aeef9d5437fd1fac929f1b1dd882e57479e"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/lemonstand/omnipay-vantiv/zipball/8afe1aeef9d5437fd1fac929f1b1dd882e57479e",
-            "reference": "8afe1aeef9d5437fd1fac929f1b1dd882e57479e",
-            "shasum": ""
+            "url": "https://github.com/Transportersio/omnipay-judopay.git",
+            "reference": "e3208b127b7a28f5b445956ca2abfe23b3c44e61"
         },
         "require": {
             "omnipay/common": "~2.0"
         },
         "require-dev": {
+            "judopay/judopay-sdk": "~2.0",
             "omnipay/tests": "~2.0"
         },
-        "time": "2016-03-28 14:00:13",
+        "time": "2017-06-02 07:55:01",
         "type": "library",
         "extra": {
             "branch-alias": {
                 "dev-master": "2.0.x-dev"
             }
         },
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "psr-4": {
-                "Omnipay\\Vantiv\\": "src/"
+                "Omnipay\\Judopay\\": "src/"
             }
         },
-        "notification-url": "https://packagist.org/downloads/",
         "license": [
             "MIT"
         ],
         "authors": [
             {
-                "name": "LemonStand",
-                "email": "chris@lemonstand.com"
+                "name": "",
+                "email": "ms@transporters.io"
+            },
+            {
+                "name": "Omnipay Contributors",
+                "homepage": "https://github.com/transportersio/omnipay-judopay/contributors"
             }
         ],
-        "description": "Vantiv payments driver for the Omnipay payment processing library",
-        "homepage": "https://github.com/lemonstand/omnipay-vantiv",
+        "description": "Judopay driver for the Omnipay payment processing library",
+        "homepage": "https://github.com/transportersio/omnipay-judopay",
         "keywords": [
             "gateway",
+            "judopay",
             "merchant",
             "omnipay",
             "pay",
-            "payment",
-            "payments",
-            "vantiv"
+            "payment"
         ]
     },
     {
@@ -665,6 +662,62 @@
         "homepage": "https://www.judopay.com/docs",
         "keywords": [
             "payment"
+        ]
+    },
+    {
+        "name": "lemonstand/omnipay-vantiv",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/lemonstand/omnipay-vantiv.git",
+            "reference": "8afe1aeef9d5437fd1fac929f1b1dd882e57479e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/lemonstand/omnipay-vantiv/zipball/8afe1aeef9d5437fd1fac929f1b1dd882e57479e",
+            "reference": "8afe1aeef9d5437fd1fac929f1b1dd882e57479e",
+            "shasum": ""
+        },
+        "require": {
+            "omnipay/common": "~2.0"
+        },
+        "require-dev": {
+            "omnipay/tests": "~2.0"
+        },
+        "time": "2016-03-28 14:00:13",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Omnipay\\Vantiv\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "LemonStand",
+                "email": "chris@lemonstand.com"
+            }
+        ],
+        "description": "Vantiv payments driver for the Omnipay payment processing library",
+        "homepage": "https://github.com/lemonstand/omnipay-vantiv",
+        "keywords": [
+            "gateway",
+            "merchant",
+            "omnipay",
+            "pay",
+            "payment",
+            "payments",
+            "vantiv"
         ]
     }
 ]
