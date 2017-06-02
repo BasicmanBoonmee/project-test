@@ -1,7 +1,7 @@
 <?php
 	require_once __DIR__ . '/vendor/autoload.php';
 
-    /*$judopay = new \Judopay(
+    $judopay = new \Judopay(
         array(
             'apiToken' => 'jwmXGbpb87xvDM4B',
             'apiSecret' => '601dc0a93d2752f5041bdb9a53dc1bf0b4e8ef0f1b03f737416fcf3be1a20b7d',
@@ -37,15 +37,35 @@
         echo $e->getSummary();
     } catch (\Exception $e) {
         echo $e->getMessage();
-    }*/
+    }
 
-    echo "BEFORE<br />";
+    /*$client = new \Guzzle\Http\Client();
 
+    $client->setDefaultOption(
+        'headers',
+        array(
+            'API-Version'  => '5.2',
+            'Accept'       => 'application/json; charset=utf-8',
+            'Content-Type' => 'application/json',
+        )
+    );
 
-    $request = \Guzzle\Http\Message\Request::class;
-    $request->post();
+    $client->setSslVerification(__DIR__ .'/../../cert/digicert_sha256_ca.pem');
 
-    echo "AFTER<br />";
+    $client->setUserAgent('Judopay PHP v'.phpversion().' SDK v2.1.0');
+
+    $client->post('https://gw1.judopay-sandbox.com/transactions/payments',
+        [
+            'yourConsumerReference' => '12345',
+            'yourPaymentReference' => '12345',
+            'cardNumber' => '4976000000003436',
+            'expiryDate' => '12/22',
+            'cv2' => '452',
+            'amount' => 1.01,
+            'currency' => 'GBP',
+            'judoId' => '100826-205'
+        ]
+        );*/
 
     /*$auth = base64_encode("9fCa1W7LsrdasToh:crWqj6cUJIbio6odXB9ZlL5QYAXu7k9N");
 
