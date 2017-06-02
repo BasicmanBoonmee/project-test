@@ -3,17 +3,11 @@
 
     use Omnipay\Omnipay;
 
-    echo "TEST 12<br />";
-
-    $vantiv = Omnipay::create('Vantiv');
-
     $judopay = Omnipay::create('Judopay');
-
-    echo "TEST 2<br />";
 
     $parameter = array();
 
-    echo "Name : ".$omnipay->authorize($parameter)."<br />";
+    echo "Name : ".$judopay->authorize($parameter)."<br />";
 
     //$omnipay = new \Omnipay\JudoPay\Gateway();
 
