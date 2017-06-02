@@ -94,7 +94,9 @@ class Model
         $this->checkApiMethodIsSupported(__FUNCTION__);
         $this->checkJudoId();
         $this->checkRequiredAttributes($this->attributeValues);
-        die("resourcePath : ".$this->resourcePath);
+        echo "resourcePath : ".$this->resourcePath."<br />";
+        echo json_encode($this->attributeValues);
+        die();
         return $this->request->post(
             $this->resourcePath,
             json_encode($this->attributeValues)
