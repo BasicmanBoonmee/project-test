@@ -1,14 +1,14 @@
 <?php
 
-namespace Omnipay\WorldPay\Message;
+namespace Omnipay\JudoPay\Message;
 
 use Omnipay\Common\Message\AbstractResponse;
 use Omnipay\Common\Message\RedirectResponseInterface;
 
 /**
- * WorldPay Purchase Response
+ * JudoPay PreAuthorization Response
  */
-class PurchaseResponse extends AbstractResponse implements RedirectResponseInterface
+class PreAuthorizationResponse extends AbstractResponse implements RedirectResponseInterface
 {
     public function isSuccessful()
     {
