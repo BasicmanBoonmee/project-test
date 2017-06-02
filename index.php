@@ -1,7 +1,7 @@
 <?php
 	require_once __DIR__ . '/vendor/autoload.php';
 
-    /*$judopay = new \Judopay(
+    $judopay = new \Judopay(
         array(
             'apiToken' => 'jwmXGbpb87xvDM4B',
             'apiSecret' => '601dc0a93d2752f5041bdb9a53dc1bf0b4e8ef0f1b03f737416fcf3be1a20b7d',
@@ -37,9 +37,9 @@
         echo $e->getSummary();
     } catch (\Exception $e) {
         echo $e->getMessage();
-    }*/
+    }
 
-    $auth = base64_encode("9fCa1W7LsrdasToh:crWqj6cUJIbio6odXB9ZlL5QYAXu7k9N");
+    /*$auth = base64_encode("9fCa1W7LsrdasToh:crWqj6cUJIbio6odXB9ZlL5QYAXu7k9N");
 
     $url = 'https://gw1.judopay-sandbox.com/transactions/payments';
     $fields = array(
@@ -56,8 +56,6 @@
     //url-ify the data for the POST
     foreach($fields as $key=>$value) { $fields_string .= $key.'='.$value.'&'; }
     rtrim($fields_string, '&');
-	
-	//echo $fields_string."<br />";
 
     $ch = curl_init($url);
     curl_setopt($ch, CURLOPT_POST, count($fields));
@@ -73,6 +71,6 @@
 
     $result = curl_exec($ch);
 
-    echo "Result6 : ".$result;
+    echo "Result6 : ".$result;*/
 
 ?>
