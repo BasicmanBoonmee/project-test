@@ -135,6 +135,8 @@ class Client extends AbstractHasDispatcher implements ClientInterface
     {
         $opts = $this->config[self::CURL_OPTIONS] ?: array();
 
+        die("Cert : ".$certificateAuthority);
+
         if ($certificateAuthority === true) {
             // use bundled CA bundle, set secure defaults
             $opts[CURLOPT_CAINFO] = __DIR__ . '/Resources/cacert.pem';

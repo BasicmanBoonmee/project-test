@@ -1,7 +1,7 @@
 <?php
 	require_once __DIR__ . '/vendor/autoload.php';
 
-    /*$judopay = new \Judopay(
+    $judopay = new \Judopay(
         array(
             'apiToken' => 'jwmXGbpb87xvDM4B',
             'apiSecret' => '601dc0a93d2752f5041bdb9a53dc1bf0b4e8ef0f1b03f737416fcf3be1a20b7d',
@@ -37,10 +37,10 @@
         echo $e->getSummary();
     } catch (\Exception $e) {
         echo $e->getMessage();
-    }*/
+    }
 
 
-    $auth = base64_encode("9fCa1W7LsrdasToh:crWqj6cUJIbio6odXB9ZlL5QYAXu7k9N");
+    /*$auth = base64_encode("9fCa1W7LsrdasToh:crWqj6cUJIbio6odXB9ZlL5QYAXu7k9N");
 
     $url = 'https://gw1.judopay-sandbox.com/transactions/payments';
     $fields = array(
@@ -69,7 +69,7 @@
     curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             'API-Version: 5.2',
             'Content-Type: application/json',
-            'Accept: application/json',
+            'Accept: application/json; charset=utf-8',
             'Authorization: Basic '.$auth)
     );
 
@@ -77,9 +77,9 @@
 
     if ($result === false)
     {
-        print_r('Curl error: ' . curl_error($result));
+        echo "Curl error: ".curl_error($result);
     }else{
         echo "Result18 : ".$result;
-    }
+    }*/
 
 ?>
