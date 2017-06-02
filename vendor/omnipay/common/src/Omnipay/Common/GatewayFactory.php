@@ -103,9 +103,10 @@ class GatewayFactory
         $class = Helper::getGatewayClassName($class);
 
         if (!class_exists($class)) {
+            echo "Class '$class' not found<br />";
             throw new RuntimeException("Class '$class' not found");
         }
-
+        echo "Class2 : ".$class."<br />";
         return new $class($httpClient, $httpRequest);
     }
 

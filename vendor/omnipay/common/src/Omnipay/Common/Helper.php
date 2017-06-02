@@ -136,7 +136,7 @@ class Helper
             $shortName .= '\\';
         }
 
-        echo '\\Omnipay\\'.$shortName.'Gateway';
+        echo '\\Omnipay\\'.$shortName.'Gateway<br />';
 
         return '\\Omnipay\\'.$shortName.'Gateway';
     }
