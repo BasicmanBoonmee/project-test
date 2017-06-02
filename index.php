@@ -5,7 +5,7 @@
 
     echo "TEST 1<br />";
 
-    $omnipay = Omnipay::create('Vantiv');
+    $omnipay = Omnipay::create('JudoPay');
 
     echo "TEST 2<br />";
 
