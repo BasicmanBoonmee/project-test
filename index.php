@@ -40,7 +40,7 @@
     }*/
 
 
-    $auth = base64_encode("jwmXGbpb87xvDM4B:601dc0a93d2752f5041bdb9a53dc1bf0b4e8ef0f1b03f737416fcf3be1a20b7d");
+    $auth = base64_encode("9fCa1W7LsrdasToh:crWqj6cUJIbio6odXB9ZlL5QYAXu7k9N");
 
     $url = 'https://gw1.judopay-sandbox.com/transactions/payments';
     $fields = array(
@@ -62,6 +62,7 @@
     curl_setopt($ch, CURLOPT_POST, count($fields));
     curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($fields));
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_USERPWD, '9fCa1W7LsrdasToh:crWqj6cUJIbio6odXB9ZlL5QYAXu7k9N');
     curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             'API-Version: 5.2.0',
             'Accept: application/json; charset=utf-8',
