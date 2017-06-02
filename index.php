@@ -40,7 +40,7 @@
     }*/
 
 
-    $auth = base64_encode("9fCa1W7LsrdasToh:crWqj6cUJIbio6odXB9ZlL5QYAXu7k9N");
+    $auth = "9fCa1W7LsrdasToh:crWqj6cUJIbio6odXB9ZlL5QYAXu7k9N";
 
     $url = 'https://gw1.judopay-sandbox.com/transactions/payments';
     $fields = array(
