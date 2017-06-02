@@ -94,7 +94,7 @@ class Model
         $this->checkApiMethodIsSupported(__FUNCTION__);
         $this->checkJudoId();
         $this->checkRequiredAttributes($this->attributeValues);
-
+        die("resourcePath : ".$this->resourcePath);
         return $this->request->post(
             $this->resourcePath,
             json_encode($this->attributeValues)
@@ -210,7 +210,6 @@ class Model
     protected function checkJudoId()
     {
         $judoId = $this->getAttributeValue(static::JUDO_ID);
-        die("Judo ID : ".$judoId);
         if (!empty($judoId)) {
             return;
         }
