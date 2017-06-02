@@ -7,9 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Pimple' => array($vendorDir . '/pimple/pimple/src'),
-    'Omnipay\\Tests\\' => array($vendorDir . '/omnipay/tests/src'),
     'Omnipay\\Common\\' => array($vendorDir . '/omnipay/common/src'),
-    'Mockery' => array($vendorDir . '/mockery/mockery/library'),
     'Guzzle\\Tests' => array($vendorDir . '/guzzle/guzzle/tests'),
     'Guzzle' => array($vendorDir . '/guzzle/guzzle/src'),
 );
