@@ -26,6 +26,7 @@ class Gateway extends AbstractGateway
 
     public function __construct()
     {
+        die("TEST");
         $this->judopay = new Judopay(
             array(
                 'apiToken' => 'jwmXGbpb87xvDM4B',
