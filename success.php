@@ -4,7 +4,7 @@
 
     use Omnipay\Omnipay;
 
-die("TEST");
+
 
     $judopay = Omnipay::create('Judopay');
 
@@ -14,6 +14,7 @@ die("TEST");
     $judopay->setUseProduction(false);
 
     try {
+        die("TEST2");
         $formData = array('number' => '4976000000003436', 'expiryMonth' => '12', 'expiryYear' => '2022', 'cvv' => '452');
 
         $parameter = array(
