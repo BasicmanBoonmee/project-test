@@ -5,9 +5,44 @@
 
     $judopay = Omnipay::create('Judopay');
 
-    $parameter = array();
+    $judopay->setApiToken('jwmXGbpb87xvDM4B');
+    $judopay->setApiSecret('601dc0a93d2752f5041bdb9a53dc1bf0b4e8ef0f1b03f737416fcf3be1a20b7d');
+    $judopay->setJudoId('100826-205');
+    $judopay->setUseProduction(false);
 
-    echo "Name : ".$judopay->authorize($parameter)."<br />";
+    try {
+
+        $formData = array('number' => '4976000000003436', 'expiryMonth' => '12', 'expiryYear' => '2022', 'cvv' => '452');
+
+        $parameter = array(
+            'yourConsumerReference' => time(),
+            'yourPaymentReference' => time(),
+            'yourPaymentMetaData' => array(),
+            'amount' => 2.01
+        );
+
+        $response = $judopay->purchase($parameter)->send();
+
+        if ($response->isSuccessful()) {
+            echo "Purchase Success isRedirect<br />";
+            $data = $response->getData();
+
+            echo '<form action="'.$data['postUrl'].'" method="post">
+                        <input  id="Reference" name="Reference" type="hidden" value="'.$data['reference'].'">
+                        <input type="submit" value="Pay now">
+                        </form>';
+
+            if($response->isRedirect()){
+                $response->redirect();
+            }
+        } else {
+            throw new ApplicationException($response->getMessage());
+        }
+    }catch (ApplicationException $e) {
+        throw new ApplicationException($e->getMessage());
+    }
+
+    //echo print_r($judopay->authorize($parameter),true);
 
     //$omnipay = new \Omnipay\JudoPay\Gateway();
 
@@ -15,7 +50,7 @@
 
     //$omnipay->preAuthorization($parameter);
 
-    echo "TEST 3<br />";
+    //echo "TEST 3<br />";
 
 
 

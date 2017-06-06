@@ -376,59 +376,6 @@
         ]
     },
     {
-        "name": "Omnipay/Judopay",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Transportersio/omnipay-judopay.git",
-            "reference": "e3208b127b7a28f5b445956ca2abfe23b3c44e61"
-        },
-        "require": {
-            "omnipay/common": "~2.0"
-        },
-        "require-dev": {
-            "judopay/judopay-sdk": "~2.0",
-            "omnipay/tests": "~2.0"
-        },
-        "time": "2017-06-02 07:55:01",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.0.x-dev"
-            }
-        },
-        "installation-source": "source",
-        "autoload": {
-            "psr-4": {
-                "Omnipay\\Judopay\\": "src/"
-            }
-        },
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "",
-                "email": "ms@transporters.io"
-            },
-            {
-                "name": "Omnipay Contributors",
-                "homepage": "https://github.com/transportersio/omnipay-judopay/contributors"
-            }
-        ],
-        "description": "Judopay driver for the Omnipay payment processing library",
-        "homepage": "https://github.com/transportersio/omnipay-judopay",
-        "keywords": [
-            "gateway",
-            "judopay",
-            "merchant",
-            "omnipay",
-            "pay",
-            "payment"
-        ]
-    },
-    {
         "name": "pimple/pimple",
         "version": "v3.0.2",
         "version_normalized": "3.0.2.0",
@@ -718,6 +665,59 @@
             "payment",
             "payments",
             "vantiv"
+        ]
+    },
+    {
+        "name": "Omnipay/Judopay",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Transportersio/omnipay-judopay.git",
+            "reference": "f18390b86df1ad5077a3a9a659af50565ded338c"
+        },
+        "require": {
+            "omnipay/common": "~2.0"
+        },
+        "require-dev": {
+            "judopay/judopay-sdk": "~2.0",
+            "omnipay/tests": "~2.0"
+        },
+        "time": "2017-06-02 10:13:47",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Omnipay\\Judopay\\": "src/"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "",
+                "email": "ms@transporters.io"
+            },
+            {
+                "name": "Omnipay Contributors",
+                "homepage": "https://github.com/transportersio/omnipay-judopay/contributors"
+            }
+        ],
+        "description": "Judopay driver for the Omnipay payment processing library",
+        "homepage": "https://github.com/transportersio/omnipay-judopay",
+        "keywords": [
+            "gateway",
+            "judopay",
+            "merchant",
+            "omnipay",
+            "pay",
+            "payment"
         ]
     }
 ]

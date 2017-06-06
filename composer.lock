@@ -13,7 +13,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Transportersio/omnipay-judopay.git",
-                "reference": "e3208b127b7a28f5b445956ca2abfe23b3c44e61"
+                "reference": "f18390b86df1ad5077a3a9a659af50565ded338c"
             },
             "require": {
                 "omnipay/common": "~2.0"
@@ -56,7 +56,7 @@
                 "pay",
                 "payment"
             ],
-            "time": "2017-06-02 07:55:01"
+            "time": "2017-06-02 10:13:47"
         },
         {
             "name": "guzzle/guzzle",
