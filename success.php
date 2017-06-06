@@ -1,7 +1,10 @@
 <?php
+
     require_once __DIR__ . '/vendor/autoload.php';
 
     use Omnipay\Omnipay;
+
+die("TEST");
 
     $judopay = Omnipay::create('Judopay');
 
@@ -11,7 +14,6 @@
     $judopay->setUseProduction(false);
 
     try {
-
         $formData = array('number' => '4976000000003436', 'expiryMonth' => '12', 'expiryYear' => '2022', 'cvv' => '452');
 
         $parameter = array(
