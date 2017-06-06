@@ -20,7 +20,7 @@
             'Reference' => $_POST['Reference']
         );
 
-        $response = $judopay->purchase($parameter)->send();
+        $response = $judopay->completePurchase($parameter)->send();
 
         if ($response->isSuccessful()) {
             echo "Purchase Success isRedirect<br />";
