@@ -14,7 +14,7 @@
     $judopay->setUseProduction(false);
 
     try {
-        die("TEST2");
+
         $formData = array('number' => '4976000000003436', 'expiryMonth' => '12', 'expiryYear' => '2022', 'cvv' => '452');
 
         $parameter = array(
@@ -24,6 +24,8 @@
         );
 
         $response = $judopay->completePurchase($parameter)->send();
+
+        die("TEST3 : ".print_r($response,true));
 
         if ($response->isSuccessful()) {
             echo "Purchase Success isRedirect<br />";
