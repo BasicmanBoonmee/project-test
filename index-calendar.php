@@ -20,11 +20,11 @@
             $authUrl = $client->createAuthUrl();
             printf("Open the following link in your browser:\n%s\n", $authUrl);
             print 'Enter verification code: ';
-            die('test2');
-            $authCode = trim(fgets(fopen('php://stdin', 'r')));
 
+            $authCode = trim(fgets(fopen('php://stdin', 'r')));
             // Exchange authorization code for an access token.
             $accessToken = $client->fetchAccessTokenWithAuthCode($authCode);
+            die("TEST");
 
             // Store the credentials to disk.
             if(!file_exists(dirname($credentialsPath))) {
