@@ -179,11 +179,11 @@ class Google_Client
    */
   public function fetchAccessTokenWithAuthCode($code)
   {
+      die("fetchAccessTokenWithAuthCode Before IF");
     if (strlen($code) == 0) {
       throw new InvalidArgumentException("Invalid code");
     }
-    
-    die("fetchAccessTokenWithAuthCode");
+
 
     $auth = $this->getOAuth2Service();
     $auth->setCode($code);
