@@ -15,11 +15,12 @@
         if (file_exists($credentialsPath)) {
             $accessToken = json_decode(file_get_contents($credentialsPath), true);
         } else {
-            die('test');
+
             // Request authorization from the user.
             $authUrl = $client->createAuthUrl();
             printf("Open the following link in your browser:\n%s\n", $authUrl);
             print 'Enter verification code: ';
+            die('test2');
             $authCode = trim(fgets(fopen('php://stdin', 'r')));
 
             // Exchange authorization code for an access token.
