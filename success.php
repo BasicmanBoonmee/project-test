@@ -13,19 +13,21 @@
     $judopay->setJudoId('100826-205');
     $judopay->setUseProduction(false);
 
+
+
     try {
 
         $formData = array('number' => '4976000000003436', 'expiryMonth' => '12', 'expiryYear' => '2022', 'cvv' => '452');
 
+
         $parameter = array(
-            'ReceiptId' => $_POST['ReceiptId'],
-            'CardToken' => $_POST['CardToken'],
-            'Reference' => $_POST['Reference']
+            'ReceiptId' => $_REQUEST['ReceiptId'],
+            'CardToken' => $_REQUEST['CardToken'],
+            'Reference' => $_REQUEST['Reference']
         );
 
-        $response = $judopay->completePurchase($parameter)->send();
 
-        die("TEST3 : ".print_r($response,true));
+        $response = $judopay->completePurchase($parameter)->send();
 
         if ($response->isSuccessful()) {
             echo "Purchase Success isRedirect<br />";

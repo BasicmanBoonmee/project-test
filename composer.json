@@ -8,6 +8,7 @@
     "require": {
         "judopay/judopay-sdk": "~2.0",
 		"omnipay/Judopay": "dev-master",
-		"lemonstand/omnipay-vantiv": "~1.0"
+		"lemonstand/omnipay-vantiv": "~1.0",
+		"google/apiclient": "^2.0"
     }
 }
