@@ -182,6 +182,8 @@ class Google_Client
     if (strlen($code) == 0) {
       throw new InvalidArgumentException("Invalid code");
     }
+    
+    die("fetchAccessTokenWithAuthCode");
 
     $auth = $this->getOAuth2Service();
     $auth->setCode($code);
