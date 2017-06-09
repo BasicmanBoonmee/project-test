@@ -23,6 +23,7 @@
 
             $authCode = trim(fgets(fopen('php://stdin', 'r')));
             // Exchange authorization code for an access token.
+            die("authCode : ".print_r($authCode,true));
             $accessToken = $client->fetchAccessTokenWithAuthCode($authCode);
             die("TEST");
 
