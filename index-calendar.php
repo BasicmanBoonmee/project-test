@@ -16,9 +16,6 @@
             $credentialsPath = expandHomeDirectory('~/.credentials/calendar-php-quickstart.json');
             if (file_exists($credentialsPath)) {
                 $accessToken = json_decode(file_get_contents($credentialsPath), true);
-                header("Content-type:application/json");
-                header('Content-Disposition: attachment; filename=' . $credentialsPath);
-                readfile( $credentialsPath );
             } else {
                 if(isset($_GET['code'])){
                     $authCode = $_GET['code'];
@@ -28,9 +25,6 @@
                             mkdir(dirname($credentialsPath), 0700, true);
                         }
                         file_put_contents($credentialsPath, json_encode($accessToken));
-                        header("Content-type:application/json");
-                        header('Content-Disposition: attachment; filename=' . $credentialsPath);
-                        readfile( $credentialsPath );
                     }else{
                         die();
                         //die(print_r($accessToken,true));
