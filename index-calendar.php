@@ -15,38 +15,37 @@
         $client->setAuthConfig(__DIR__ . '/client_secret_446088162951-e4jpcfohkh9ivjm3c7sjnch568t60bmk.apps.googleusercontent.com.json');
         $client->setAccessType('offline');
 
-        // Load previously authorized credentials from a file.
-        $credentialsPath = expandHomeDirectory('~/.credentials/calendar-php-quickstart.json');
-        if (file_exists($credentialsPath)) {
-            $accessToken = json_decode(file_get_contents($credentialsPath), true);
-        } else {
+            // Load previously authorized credentials from a file.
+            $credentialsPath = expandHomeDirectory('~/.credentials/calendar-php-quickstart.json');
+            if (file_exists($credentialsPath)) {
+                $accessToken = json_decode(file_get_contents($credentialsPath), true);
+            } else {
+                if(isset($_GET['code'])){
+                    $authCode = $_GET['code'];
+                    // Exchange authorization code for an access token.
+                    $accessToken = $client->fetchAccessTokenWithAuthCode($authCode);
 
-            // Request authorization from the user.
-            $authUrl = $client->createAuthUrl();
+                    // Store the credentials to disk.
+                    if(!file_exists(dirname($credentialsPath))) {
+                        mkdir(dirname($credentialsPath), 0700, true);
+                    }
+                    file_put_contents($credentialsPath, json_encode($accessToken));
+                    printf("Credentials saved to %s\n", $credentialsPath);
+                }else{
+                    $authUrl = $client->createAuthUrl();
 
-            //die("authUrl : ".$authUrl);
-
-            $authCode = trim(fgets(STDIN));
-            // Exchange authorization code for an access token.
-            die($authCode);
-            $accessToken = $client->fetchAccessTokenWithAuthCode($authCode);
-            die("TEST");
-
-            // Store the credentials to disk.
-            if(!file_exists(dirname($credentialsPath))) {
-                mkdir(dirname($credentialsPath), 0700, true);
+                    die('<a href="'.$authUrl.'">Click</a>');
+                }
             }
-            file_put_contents($credentialsPath, json_encode($accessToken));
-            printf("Credentials saved to %s\n", $credentialsPath);
-        }
-        $client->setAccessToken($accessToken);
+            $client->setAccessToken($accessToken);
 
-        // Refresh the token if it's expired.
-        if ($client->isAccessTokenExpired()) {
-            $client->fetchAccessTokenWithRefreshToken($client->getRefreshToken());
-            file_put_contents($credentialsPath, json_encode($client->getAccessToken()));
-        }
-        return $client;
+            // Refresh the token if it's expired.
+            if ($client->isAccessTokenExpired()) {
+                $client->fetchAccessTokenWithRefreshToken($client->getRefreshToken());
+                file_put_contents($credentialsPath, json_encode($client->getAccessToken()));
+            }
+            return $client;
+
     }
 
     /**
