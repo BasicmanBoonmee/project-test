@@ -93,7 +93,7 @@
     } else {
         echo "Upcoming list calendar :<br />";
         foreach ($listCalendar->getItems() as $calendar) {
-            echo print_r($calendar,true)."<br />";
+            echo $calendar->getSummary()."<br />";
         }
     }
 
