@@ -74,9 +74,9 @@
     $results = $service->events->listEvents($calendarId, $optParams);
 
     if (count($results->getItems()) == 0) {
-        print "No upcoming events found.\n";
+        echo "No upcoming events found.<br />";
     } else {
-        print "Upcoming events:\n";
+        echo "Upcoming events:<br />";
         foreach ($results->getItems() as $event) {
             $start = $event->start->dateTime;
             if (empty($start)) {
@@ -86,12 +86,16 @@
         }
     }
 
-    /*echo "<br />";
-    die("TEST");
     $listCalendar = $service->calendarList->listCalendarList();
 
-    foreach ($listCalendar->getItems() as $calendar){
-        echo $calendar->getSummary()."<br />";
-    }*/
+    if (count($listCalendar->getItems()) == 0) {
+        echo "No upcoming list calendar found.<br />";
+    } else {
+        echo "Upcoming list calendar :<br />";
+        foreach ($listCalendar->getItems() as $calendar) {
+            echo print_r($calendar,true)."<br />";
+        }
+    }
+
 
 ?>
