@@ -15,7 +15,7 @@
             if (file_exists($credentialsPath)) {
                 //die("Have File credentialsPath");
                 $accessToken = json_decode(file_get_contents($credentialsPath), true);
-                echo "Have File credentialsPath<br />";
+                //echo "Have File credentialsPath<br />";
             } else {
                 if(isset($_GET['code'])){
                     $authCode = $_GET['code'];
