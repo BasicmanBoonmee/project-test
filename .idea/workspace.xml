@@ -26,8 +26,8 @@
       <file leaf-file-name="index-calendar.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index-calendar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            <state relative-caret-position="306">
+              <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -274,12 +274,12 @@
       <workItem from="1496809558975" duration="3169000" />
       <workItem from="1496895870651" duration="617000" />
       <workItem from="1496996475615" duration="7224000" />
-      <workItem from="1497233377654" duration="250000" />
+      <workItem from="1497233377654" duration="400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55850000" />
+    <option name="totallyTimeSpent" value="56000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -645,8 +645,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index-calendar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state relative-caret-position="306">
+          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
           <folding />
         </state>
       </provider>
