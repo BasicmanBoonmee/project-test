@@ -1,6 +1,8 @@
 <?php
 	require_once __DIR__ . '/vendor/autoload.php';
 
+    defined('STDIN') or define('STDIN', fopen('php://stdin', 'r'));
+
     function getClient() {
         $client = new Google_Client();
         $client->setApplicationName('Gcalendar');
@@ -19,7 +21,7 @@
             // Request authorization from the user.
             $authUrl = $client->createAuthUrl();
             //die("authUrl : ".$authUrl);
-            $authCode = trim(fgets(fopen('php://stdin', 'r')));
+            $authCode = trim(fgets(STDIN));
             // Exchange authorization code for an access token.
             die("authCode : ".print_r($authCode,true));
             $accessToken = $client->fetchAccessTokenWithAuthCode($authCode);
