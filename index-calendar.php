@@ -13,6 +13,7 @@
             // Load previously authorized credentials from a file.
             $credentialsPath = expandHomeDirectory('~/.credentials/calendar-php-quickstart.json');
             if (file_exists($credentialsPath)) {
+                die("Have File credentialsPath");
                 $accessToken = json_decode(file_get_contents($credentialsPath), true);
             } else {
                 if(isset($_GET['code'])){
