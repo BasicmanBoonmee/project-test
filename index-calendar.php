@@ -83,12 +83,12 @@
         }
     }
 
-    echo "<br />";
+    /*echo "<br />";
     die("TEST");
     $listCalendar = $service->calendarList->listCalendarList();
 
     foreach ($listCalendar->getItems() as $calendar){
         echo $calendar->getSummary()."<br />";
-    }
+    }*/
 
 ?>
