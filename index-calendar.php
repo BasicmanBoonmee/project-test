@@ -24,7 +24,7 @@
                     // Exchange authorization code for an access token.
                     $accessToken = $client->fetchAccessTokenWithAuthCode($authCode);
 
-                    die("accessToken : ".$accessToken);
+                    die("accessToken : ".print_r($accessToken,true));
 
                     // Store the credentials to disk.
                     if(!file_exists(dirname($credentialsPath))) {
