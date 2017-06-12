@@ -19,7 +19,8 @@
             // Request authorization from the user.
             $authUrl = $client->createAuthUrl();
             //die("authUrl : ".$authUrl);
-
+            printf("Open the following link in your browser:\n%s\n", $authUrl);
+            print 'Enter verification code: ';
             $authCode = trim(fgets(STDIN));
             // Exchange authorization code for an access token.
             die("authCode : ".print_r($authCode,true));
