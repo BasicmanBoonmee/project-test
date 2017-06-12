@@ -35,8 +35,6 @@
                 }
             }
 
-            die("accessToken : ".$accessToken);
-
             $client->setAccessToken($accessToken);
 
             // Refresh the token if it's expired.
