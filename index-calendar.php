@@ -84,9 +84,9 @@
     }
 
     echo "<br />";
-
-    $listCalendar = $service->calendarList->listCalendarList();
     die("TEST");
+    $listCalendar = $service->calendarList->listCalendarList();
+
     foreach ($listCalendar->getItems() as $calendar){
         echo $calendar->getSummary()."<br />";
     }
