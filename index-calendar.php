@@ -26,8 +26,7 @@
                         }
                         file_put_contents($credentialsPath, json_encode($accessToken));
                     }else{
-                        die();
-                        //die(print_r($accessToken,true));
+                        die(print_r($accessToken,true));
                     }
 
                 }else{
@@ -61,16 +60,16 @@
 
     // Get the API client and construct the service object.
     $client = getClient();
-    /*$service = new Google_Service_Calendar($client);
+    $service = new Google_Service_Calendar($client);
 
     $listCalendar = $service->calendarList->listCalendarList();
 
     if (count($listCalendar->getItems()) == 0) {
-        //echo "No upcoming list calendar found.<br />";
+        echo "No upcoming list calendar found.<br />";
     } else {
-        //echo "Upcoming list calendar :<br />";
+        echo "Upcoming list calendar :<br />";
         foreach ($listCalendar->getItems() as $calendar) {
-            //echo $calendar->getId()." : ".$calendar->getSummary()."<br />";
+            echo $calendar->getId()." : ".$calendar->getSummary()."<br />";
             $calendarId = $calendar->getId();
             $optParams = array(
                 'maxResults' => 10,
@@ -82,20 +81,20 @@
             $results = $service->events->listEvents($calendarId, $optParams);
 
             if (count($results->getItems()) == 0) {
-                //echo "No upcoming events found.<br />";
+                echo "No upcoming events found.<br />";
             } else {
-                //echo "Upcoming events:<br />";
+                echo "Upcoming events:<br />";
                 foreach ($results->getItems() as $event) {
                     $start = $event->start->dateTime;
                     if (empty($start)) {
                         $start = $event->start->date;
                     }
-                    //echo $start." : ".$event->getSummary()."<br />";
+                    echo $start." : ".$event->getSummary()."<br />";
                 }
             }
 
         }
-    }*/
+    }
 
 
 ?>
