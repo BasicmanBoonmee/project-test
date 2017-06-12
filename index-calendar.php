@@ -3,7 +3,9 @@
 
     function getClient() {
         $client = new Google_Client();
-        $client->setApplicationName('Gcalendar');
+        //$client->setApplicationName('Gcalendar');
+        $client->setClientId('446088162951-e4jpcfohkh9ivjm3c7sjnch568t60bmk.apps.googleusercontent.com');
+        $client->setClientSecret('Fo08_ibJRI6RnNqn_7R_F1ZS');
         $client->setScopes(implode(' ', array(
                 Google_Service_Calendar::CALENDAR_READONLY)
         ));
@@ -86,7 +88,7 @@
         }
     }
 
-    $listCalendar = $service->calendarList->listCalendarList();
+    /*$listCalendar = $service->calendarList->listCalendarList();
 
     if (count($listCalendar->getItems()) == 0) {
         echo "No upcoming list calendar found.<br />";
@@ -95,7 +97,7 @@
         foreach ($listCalendar->getItems() as $calendar) {
             echo print_r($calendar,true)."<br />";
         }
-    }
+    }*/
 
 
 ?>
