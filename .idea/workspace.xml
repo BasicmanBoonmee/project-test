@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cfa8f13-5c0d-49ef-a353-fe93af6d3833" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-calendar.php" afterPath="$PROJECT_DIR$/index-calendar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client_secret_446088162951-e4jpcfohkh9ivjm3c7sjnch568t60bmk.apps.googleusercontent.com.json" afterPath="$PROJECT_DIR$/client_secret_446088162951-e4jpcfohkh9ivjm3c7sjnch568t60bmk.apps.googleusercontent.com.json" />
     </list>
     <ignored path="project-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -274,12 +274,12 @@
       <workItem from="1496809558975" duration="3169000" />
       <workItem from="1496895870651" duration="617000" />
       <workItem from="1496996475615" duration="7224000" />
-      <workItem from="1497233377654" duration="12824000" />
+      <workItem from="1497233377654" duration="13422000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68424000" />
+    <option name="totallyTimeSpent" value="69022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
