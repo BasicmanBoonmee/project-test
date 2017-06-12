@@ -14,20 +14,20 @@
 
             // Load previously authorized credentials from a file.
             $credentialsPath = expandHomeDirectory('~/.credentials/calendar-php-quickstart.json');
-            if (file_exists($credentialsPath)) {
+            /*if (file_exists($credentialsPath)) {
                 //die("Have File credentialsPath");
                 $accessToken = json_decode(file_get_contents($credentialsPath), true);
                 //echo "Have File credentialsPath<br />";
-            } else {
+            } else {*/
                 if(isset($_GET['code'])){
                     $authCode = $_GET['code'];
                     // Exchange authorization code for an access token.
                     $accessToken = $client->fetchAccessTokenWithAuthCode($authCode);
 
                     // Store the credentials to disk.
-                    if(!file_exists(dirname($credentialsPath))) {
+                    /*if(!file_exists(dirname($credentialsPath))) {
                         mkdir(dirname($credentialsPath), 0700, true);
-                    }
+                    }*/
                     file_put_contents($credentialsPath, json_encode($accessToken));
                     //printf("Credentials saved to %s\n", $credentialsPath);
                 }else{
@@ -35,7 +35,7 @@
 
                     die('<a href="'.$authUrl.'">Click</a>');
                 }
-            }
+            //}
 
             $client->setAccessToken($accessToken);
 
