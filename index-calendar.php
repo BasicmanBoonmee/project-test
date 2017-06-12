@@ -5,9 +5,16 @@
 
     function getClient() {
         $client = new Google_Client();
-        $client->setApplicationName('Gcalendar');
+        $client->setClientId('446088162951-e4jpcfohkh9ivjm3c7sjnch568t60bmk.apps.googleusercontent.com');
+        $client->setClientSecret('Fo08_ibJRI6RnNqn_7R_F1ZS');
+        $client->setRedirectUri('urn:ietf:wg:oauth:2.0:oob');
+        /*$client->setApplicationName('Gcalendar');
         $client->setScopes(implode(' ', array(
                 Google_Service_Calendar::CALENDAR_READONLY)
+        ));*/
+        $client->setScopes(array(
+            'https://www.googleapis.com/auth/calendar',
+            'https://www.googleapis.com/auth/calendar.readonly',
         ));
         $client->setAuthConfig(__DIR__ . '/client_secret_446088162951-e4jpcfohkh9ivjm3c7sjnch568t60bmk.apps.googleusercontent.com.json');
         $client->setAccessType('offline');
@@ -21,7 +28,7 @@
             // Request authorization from the user.
             $authUrl = $client->createAuthUrl();
 
-            die("authUrl : ".$authUrl);
+            //die("authUrl : ".$authUrl);
 
             $authCode = trim(fgets(STDIN));
             // Exchange authorization code for an access token.
