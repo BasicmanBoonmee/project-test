@@ -24,14 +24,15 @@
                     // Exchange authorization code for an access token.
                     $accessToken = $client->fetchAccessTokenWithAuthCode($authCode);
 
-                    die("accessToken : ".print_r($accessToken,true));
-
-                    // Store the credentials to disk.
-                    if(!file_exists(dirname($credentialsPath))) {
-                        mkdir(dirname($credentialsPath), 0700, true);
+                    if(isset($accessToken['access_token'])){
+                        if(!file_exists(dirname($credentialsPath))) {
+                            mkdir(dirname($credentialsPath), 0700, true);
+                        }
+                        file_put_contents($credentialsPath, json_encode($accessToken));
+                    }else{
+                        die(print_r($accessToken,true));
                     }
-                    file_put_contents($credentialsPath, json_encode($accessToken));
-                    //printf("Credentials saved to %s\n", $credentialsPath);
+
                 }else{
                     $authUrl = $client->createAuthUrl();
 
