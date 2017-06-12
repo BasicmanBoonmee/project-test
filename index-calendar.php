@@ -97,7 +97,7 @@
                     if (empty($start)) {
                         $start = $event->start->date;
                     }
-                    printf("%s (%s)\n", $event->getSummary(), $start);
+                    echo $start." : ".$event->getSummary()."<br />";
                 }
             }
 
