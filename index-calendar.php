@@ -17,7 +17,6 @@
         } else {
 
             // Request authorization from the user.
-            die("Before AuthURL");
             $authUrl = $client->createAuthUrl();
             die("authUrl : ".$authUrl);
 

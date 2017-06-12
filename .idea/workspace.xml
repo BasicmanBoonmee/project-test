@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cfa8f13-5c0d-49ef-a353-fe93af6d3833" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/project-test.iml" afterPath="$PROJECT_DIR$/.idea/project-test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-calendar.php" afterPath="$PROJECT_DIR$/index-calendar.php" />
     </list>
     <ignored path="project-test.iws" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="index-calendar.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index-calendar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            <state relative-caret-position="170">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -276,12 +274,12 @@
       <workItem from="1496809558975" duration="3169000" />
       <workItem from="1496895870651" duration="617000" />
       <workItem from="1496996475615" duration="7224000" />
-      <workItem from="1497233377654" duration="42000" />
+      <workItem from="1497233377654" duration="155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55642000" />
+    <option name="totallyTimeSpent" value="55755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -647,8 +645,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index-calendar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        <state relative-caret-position="170">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding />
         </state>
       </provider>
