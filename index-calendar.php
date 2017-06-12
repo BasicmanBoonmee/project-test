@@ -20,7 +20,9 @@
 
             // Request authorization from the user.
             $authUrl = $client->createAuthUrl();
-            //die("authUrl : ".$authUrl);
+
+            die("authUrl : ".$authUrl);
+
             $authCode = trim(fgets(STDIN));
             // Exchange authorization code for an access token.
             die("authCode : ".print_r($authCode,true));
