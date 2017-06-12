@@ -95,7 +95,7 @@
     } else {
         echo "Upcoming list calendar :<br />";
         foreach ($listCalendar->getItems() as $calendar) {
-            echo $calendar->getSummary()."<br />";
+            echo $calendar->getId()." : ".$calendar->getSummary()."<br />";
         }
     }
 
