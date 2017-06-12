@@ -18,7 +18,7 @@
 
             // Request authorization from the user.
             $authUrl = $client->createAuthUrl();
-            die("authUrl : ".$authUrl);
+            //die("authUrl : ".$authUrl);
 
             $authCode = trim(fgets(fopen('php://stdin', 'r')));
             // Exchange authorization code for an access token.
