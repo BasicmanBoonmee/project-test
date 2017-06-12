@@ -88,7 +88,7 @@
         }
     }
 
-    /*$listCalendar = $service->calendarList->listCalendarList();
+    $listCalendar = $service->calendarList->listCalendarList();
 
     if (count($listCalendar->getItems()) == 0) {
         echo "No upcoming list calendar found.<br />";
@@ -97,7 +97,7 @@
         foreach ($listCalendar->getItems() as $calendar) {
             echo print_r($calendar,true)."<br />";
         }
-    }*/
+    }
 
 
 ?>
